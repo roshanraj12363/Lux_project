@@ -1,0 +1,154 @@
+.top{
+    text-align: left;
+    margin-top: 150px;
+    font-size: 20px;
+    margin-left: 10%;
+    font-weight: 900;
+    display: block;
+}
+
+.top_2{
+    text-align: left;
+    margin-top: 30px;
+    font-size: 18px;
+    margin-left: 10%; 
+}
+
+.text{
+    text-align: left;
+    margin-top: 50px;
+    font-size: 20px;
+    margin-left: 10%;
+    font-weight: 600;
+    background-color: lightgray;
+    padding: 5px 0px 5px 60px;
+    width: 640px;
+}
+.text_2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.publish{
+    
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    
+    margin-left: -72%;
+    
+}
+.mob{
+    margin-left: 850px;
+    width: 310px;
+    padding-right: 100px;
+    margin-right: 10% ;
+    margin-top: -552px;
+    
+}
+
+.container{
+    width: 234px;
+    border: 1px solid black;
+    text-align: left;
+    height: 434px;   
+    position: relative;
+    margin-right: 100px;
+    margin-left: 882px;
+    margin-top: -266px;
+    overflow: hidden;
+    padding-left: 10px;
+    
+}
+.box{
+    
+    height: 436px;
+}
+
+.scroll{
+    height: 50%;
+}
+
+@media only screen and (max-width: 1200px){
+    .top{
+        font-size: 30px;
+    }
+    .top_2{
+        font-size: 25px;
+    }
+    .publish{
+        padding: 10px;
+        font-size: 20px;
+    }
+    .mob{
+        width: 330px;
+        margin-top: -595px;
+    }
+    .container{
+        margin-left: 885px;
+        margin-top: -256px;
+        width: 248px;
+        height: 465px;
+    }
+    .box{
+    
+        height: 470px;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .top{
+        font-size: 35px;
+    }
+    .top_2{
+        font-size: 28px;
+    }
+    .publish{
+        padding: 10px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .top{
+        display: none;
+    }
+    .top_2{
+        display: none;
+    }
+    .publish{
+        display: none; 
+    }
+
+    .text{
+        display: none;
+    }
+    .mob{
+        display: none;
+    }
+    .container{
+        width: 204px;
+        margin-top: 50px;
+        margin-right: auto;
+        margin-left: auto;
+        height: 384px;
+        margin-bottom: 100px;
+        border-radius: 15px;
+        background-color: white;
+        margin: 10px red;
+    }
+    .box{
+        display: block;
+        width: 250px;
+        height: 500px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        background-color: aliceblue;
+        margin-top: 50px;
+        position: relative;
+    }
+
+}
+
